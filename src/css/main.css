@@ -60,7 +60,7 @@ display: none;
 .hero-section {
      background-image: url("/img/hero/desk.png");
 background-repeat: no-repeat;
-background-position: top center;
+background-position: top 60px center;
 background-size: cover;
 height: 960px;
 }
@@ -71,13 +71,14 @@ width: 353px;
     height: 116px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 30px;
 }
 .hero-wrapper {
     height: 268px;
     padding: 16px 483px;
     position: absolute;
     left: 0;
-    top: 410px;
+    top: 470px;
 }
 .hero-big-text {
     font-size: 40px;
@@ -322,4 +323,24 @@ width: 344px;
   margin-left: 800px;
   margin-top: -370px;
 }
+}
+/* Step Into Your Social Universe */
+.step-section{
+  background: #9ad5fb;
+}
+.step-title{
+  margin-bottom: 24px;
+}
+@media only screen and (min-width: 1439px) {
+  .step-title {
+      margin-bottom: 16px;
+      width: 473px;
+      margin-left: auto;
+      margin-right: auto;
+ } 
+ .step-text{
+  width: 473px;
+  margin-left: auto;
+    margin-right: auto
+ }
 }

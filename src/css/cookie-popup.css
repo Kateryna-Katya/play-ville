@@ -1,0 +1,114 @@
+.cookie-popup {
+    position: fixed;
+    bottom: 30px;
+    left: 48%;
+    transform: translateX(-48%);
+    padding: 40px 28px;
+    background: #fff;
+    z-index: 1000;
+    width: 374px;
+    height: auto;
+    display: none;
+}
+
+.popup-title {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 0.91667;
+    color: #000;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.cookie-class {
+    font-family: "Lato", sans-serif;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 1.5;
+        color: #000;
+        text-align: left;
+    width: 320px;
+}
+
+.cookie-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 319px;
+    height: 106px;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-accept {
+    border-radius: 8px;
+    padding: 14px 12px;
+    width: 319px;
+    height: 45px;
+    font-weight: 700;
+    background: #9ad5fb;
+    box-sizing: border-box;
+    border: none;
+}
+
+.btn-decline {
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding: 15px 12px;
+    width: 319px;
+    height: 45px;
+    font-weight: 700;
+    box-shadow: 0 1px 3px 0 #87614c;
+    box-sizing: border-box;
+    background-color: inherit;
+}
+
+@media screen and (min-width: 1439px) {
+    .cookie-popup {
+        padding: 40px 20px;
+        width: 1439px;
+        height: auto;
+    }
+
+    .popup-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .popup-title {
+        font-size: 36px;
+        margin-bottom: 0;
+    }
+
+    .cookie-class {
+        font-size: 22px;
+        text-align: center;
+        width: 1400px;
+    }
+
+    .cookie-buttons {
+        flex-direction: row;
+        gap: 16px;
+        width: 554px;
+        margin-top: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .btn-accept {
+        padding: 14px 12px;
+        width: 269px;
+        height: 55px;
+    }
+
+    .btn-decline {
+        padding: 14px 12px;
+        width: 269px;
+        height: 55px;
+    }
+}
