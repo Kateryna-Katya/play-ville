@@ -90,3 +90,141 @@ margin-right: auto;
     font-size: 20px;
 }
 }
+/* Game Description */
+.game-title{
+    margin-bottom: 24px;
+}
+.game-text{
+    margin-bottom: 24px;
+}
+.game{
+    display: none;
+}
+@media only screen and (min-width: 1439px) {
+  .game-title{
+    margin-bottom: 32px;
+    margin-top: 20px;
+  }
+  .game-text{
+    width: 712px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .game-img{
+    margin-top: -250px;
+    margin-left: -130px;
+  }
+  .game{
+    display: block;
+    margin-left: 870px;
+    margin-top: -350px;
+  }
+}
+/* Gallery */
+.gallery-title{
+    margin-bottom: 24px;
+}
+.gallery-swiper-slide{
+    cursor: pointer;
+     margin-bottom: 16px;
+}
+.gallery-img{
+    min-height: 297px;   
+}
+.custom-next{
+    transform: rotate(180deg);
+}
+.gallery-nav{
+    display: flex;
+      gap: 16px;
+      justify-content: center;
+}
+.arrow{
+    width: 50px;
+    height: 50px;
+}
+.custom-arrow{
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+}
+@media only screen and (min-width: 1439px) {
+  .gallery-title{
+    margin-bottom: 32px;
+  }
+  .gallery-swiper-slide {
+      margin-bottom: 24px;
+  }
+}
+/* How to Play */
+.play-title{
+    margin-bottom: 24px;
+}
+.play-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.play-item{
+    width: 336px;
+        height: 233px;
+}
+.play-img{
+    width: 184px;
+        height: 184px;
+        margin-left: auto;
+        margin-right: auto;
+}
+.play-item-title{
+    margin-bottom: 8px;
+}
+@media only screen and (min-width: 1439px) {
+.play-title {
+margin-bottom: 32px;
+}    
+ .play-list {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+ }    
+.play-item {
+width: 344px;
+height: 312px;
+}    
+.play-item-title {
+margin-bottom: 8px; 
+ }   
+}
+/* User Reviews */
+.reviews-title{
+    margin-bottom: 24px;
+}
+.reviews-swiper-slide{
+    cursor: pointer;
+    border: 2px dashed #000;
+        padding: 16px;
+        height: 100px;
+        margin-bottom: 16px;
+}
+.reviews-item-title{
+    margin-bottom: 8px;
+}
+.reviews-custom-next{
+    transform: rotate(180deg);
+}
+@media only screen and (min-width: 1439px) {
+ .reviews-title{
+    margin-bottom: 32px;
+ }
+ .reviews-swiper-slide{
+margin-bottom: 26px;
+width: 344px;
+    height: 112px;
+ }
+}
+/* FAQ */
+.faq-title{
+    margin-bottom: 24px;
+}

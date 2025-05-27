@@ -1,0 +1,16 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-minus" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.3333" d="M8 16h16"></path>
+</symbol>
+<symbol id="icon-add" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.7778" d="M8 16h16M16 24v-16"></path>
+</symbol>
+<symbol id="icon-burger" viewBox="0 0 32 32">
+<path stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.2857" d="M4.429 9.571h23.143M4.429 16h23.143M4.429 22.429h23.143"></path>
+</symbol>
+<symbol id="icon-arrow-left" viewBox="0 0 31 32">
+<path d="M17.571 9.094c0.446-0.446 1.17-0.446 1.616 0l0.198 0.197c0.446 0.446 0.446 1.169 0.001 1.615l-4.277 4.286c-0.445 0.446-0.445 1.168 0 1.614l4.277 4.286c0.445 0.447 0.445 1.169-0.001 1.615l-0.198 0.198c-0.446 0.446-1.17 0.446-1.616 0l-6.098-6.098c-0.446-0.446-0.446-1.17 0-1.616l6.098-6.098z"></path>
+</symbol>
+</defs>
+</svg>

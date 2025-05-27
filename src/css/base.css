@@ -22,7 +22,11 @@ h3{
     letter-spacing: 0.08em;
     text-align: center;
     color: #000;
-    -webkit-text-stroke: 1px #3DB2CB;
+    text-shadow:
+        -1px -1px 0 #3DB2CB,
+        1px 1px 0 #3DB2CB,
+        -1px 1px 0 #3DB2CB,
+        1px 1px 0 #3DB2CB;
 }
 @media only screen and (min-width: 1439px) {
   body{
