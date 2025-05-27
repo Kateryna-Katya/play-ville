@@ -1,43 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Groovy Galaxy – Beat Music Game | Tap to the Rhythm!</title>
-    <meta name="description"
-      content="Enter Groovy Galaxy – a music rhythm game packed with beats, challenges, and cosmic vibes! Tap to the music and master the groove.">
-    <meta name="keywords"
-      content="Groovy Galaxy, rhythm game, beat game, music tap game, EDM game, music challenge, Android rhythm game, beatmania">
-    <meta property="og:title" content="Groovy Galaxy – Beat Music Game">
-    <meta property="og:description"
-      content="Get in the groove and tap your way through a galaxy of music. Groovy Galaxy turns beats into an interstellar adventure!">
-    <meta property="og:image" content="URL_TO_THUMBNAIL_IMAGE">
-    <meta property="og:url" content="https://beatrizcribeiro.com">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Play Ville</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
       integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link
-        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Pixelify+Sans:wght@400..700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Pixelify+Sans:wght@400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
         rel="stylesheet">
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/play-ville/favicon.png" />
-    <script type="module" crossorigin src="/play-ville/index.js"></script>
-    <link rel="modulepreload" crossorigin href="/play-ville/assets/vendor-Sm41FR0M.js">
+    <script type="module" crossorigin src="/play-ville/assets/vendor-Sm41FR0M.js"></script>
+    <script type="module" crossorigin src="/play-ville/assets/main-Bx1NxTBv.js"></script>
     <link rel="stylesheet" crossorigin href="/play-ville/assets/vendor-BMD19QWe.css">
-    <link rel="stylesheet" crossorigin href="/play-ville/assets/styles-BeU8dPYZ.css">
+    <link rel="stylesheet" crossorigin href="/play-ville/assets/index-DY4Jgr_7.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
+    <header class="header" id="site-header">
+  <div class="header-container container">
+    <img class="header-img" src="/img/header/dynamic-island.png" alt="Dynamic Island" loading="lazy" />
+    <div class="header-wrapper">
+      <a class="header-link" href="index.html#Home">
+      <img class="header-logo" src="/play-ville/assets/logo-CPf0hSp7.png" alt="Logo" loading="lazy" width="152" height="50"/>
+    </a>
+    <button type="button" class="menu-button" aria-label="menu toggle">
+      <span class="icon">
+           <svg class="header-svg" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M3.875 8.375H24.125M3.875 14H24.125M3.875 19.625H24.125" stroke="black" stroke-width="2"
+            stroke-linecap="round" />  </svg>
+      </span>
+    </button>
+  </div>
+
+    <nav class="nav ">
+      <ul class="navigation-list">
+        <li class="navigation-item">
+          <a class="links" href="index.html#Home">Home</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#Game">Game Description</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#Gallery">Gallery</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#Play">How to Play</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#Reviews">User Reviews</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#FAQ">FAQ</a>
+        </li>
+      </ul>
+    </nav>
   </div>
 </header>
-
+<!-- Mobile menu -->
+<div id="modalWindow" class="modal">
+  <ul class="menu-list">
+    <li><a class="menu-list-item" href="index.html#Home">Home</a></li>
+    <li><a class="menu-list-item" href="index.html#Game">Game Description</a></li>
+    <li>
+      <a class="menu-list-item" href="index.html#Gallery">Gallery</a>
+    </li>
+    <li><a class="menu-list-item" href="index.html#Play">How to Play</a></li>
+    <li><a class="menu-list-item" href="index.html#Reviews">User Reviews</a></li>
+    <li><a class="menu-list-item" href="index.html#FAQ">FAQ</a></li>
+  </ul>
+</div>
 
     <main>
       <!-- Loads the specified .html file -->
       <!-- Hero -->
-<section class="hero-section">
+<section class="hero-section" id="Home">
     <div class="container hero-container">
         <h1 class="visually-hidden">Play Ville</h1>
         <img class="hero-img" src="/play-ville/assets/logo-Bh5NHTk-.png" alt="Logo" loading="lazy" />
@@ -48,7 +89,7 @@
     </div>
 </section>
 <!-- Game Description -->
-<section class="game-section">
+<section class="game-section" id="Game">
     <div class="container">
         <h2 class="game-title">Game Description</h2>
         <p class="game-text">PlayVille is your digital playground — create a stylish avatar, decorate your space, and make real social connections.
@@ -63,7 +104,7 @@
     </div>
 </section>
 <!-- Gallery -->
- <section class="gallery-section">
+ <section class="gallery-section" id="Gallery">
     <div class="container">
         <h2 class="gallery-title">Gallery</h2>
         <div class="swiper gallery-swiper">
@@ -125,7 +166,7 @@
     </div>
  </section>
  <!-- How to Play -->
-<section class="play-section">
+<section class="play-section" id="Play">
     <div class="container">
         <h2 class="play-title">How to Play</h2>
         <ul class="play-list">
@@ -158,7 +199,7 @@
     </div>
 </section>
 <!-- User Reviews -->
- <section class="reviews-section">
+ <section class="reviews-section" id="Reviews">
     <div class="container">
         <h2 class="reviews-title">User Reviews</h2>
         <div class="swiper reviews-swiper">
@@ -197,7 +238,7 @@
     </div>
  </section>
  <!-- FAQ -->
-<section class="faq-section">
+<section class="faq-section" id="FAQ">
     <div class="container">
         <h2 class="faq-title">FAQ</h2>
         <ul class="faq-acc">
@@ -280,6 +321,14 @@
         alt="Play Ville" loading="lazy" />
     </div>
 </section>
+<!-- Step Into Your Social Universe -->
+<section class="step-section">
+    <div class="container">
+        <span style="display: none;">Generated:2025-05-27, Hash:jjhy5545</span>
+        <h2 class="step-title">Step Into Your Social Universe</h2>
+        <p class="step-text">Customize, connect, and create your perfect virtual self in PlayVille.</p>
+    </div>
+</section>
 
     </main>
 
@@ -300,6 +349,16 @@
     <p class="footer-text">© 2025 createpnw.com - All rights reserved</p>
   </div>
 </footer>
+    <div id="cookie-popup" class="cookie-popup">
+    <div class="popup-wrapper">
+        <h2 class="popup-title">Cookies Policy</h2>
+        <p class="cookie-class">We use cookies to improve your experience on our website. By browsing this website, you agree to our use of cookies.</p>
+        <div class="cookie-buttons">
+            <button id="accept-cookies" class="btn-accept">ACCEPT COOKIES</button>
+            <button id="decline-cookies" class="btn-decline">DECLINE COOKIES</button>
+        </div>
+    </div>
+</div>
 
   </body>
 </html>
